@@ -53,7 +53,12 @@ nav ul li{
     background: none;
     width: 30px;
     height: 30px;
-    
-
+    line-height: 30px;
+    position: relative;
+    left: 5px;
+}
+.boton{
+    position: relative;
+    right: 30px;
 }
 

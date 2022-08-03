@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OrtLauncher Main Menu</title>
     <link rel="stylesheet" href="estilos.css" />
+    <script src="https://kit.fontawesome.com/712575d4a5.js"
+    crossorigin="annonymus"></script>
 </head>
 <body>
         <div id = "container">
@@ -37,5 +39,12 @@
             </nav>
 
         </div> 
+
+        <div class="buscar">
+            <input type="text" placeholder="Buscar..." required>
+            <div class="btn">
+                <i class="fas fa-search icon"></i>
+        </div> 
+
 </body>
 </html>

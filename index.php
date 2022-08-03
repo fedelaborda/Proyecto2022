@@ -16,22 +16,22 @@
             <nav>
                 <ul>
                     <li>
-                        <a href= "index.html">Inicio</a>
+                        <a href= "http://localhost/Proyecto2022/index.php">Inicio</a>
                     </li>
                     <li>
-                        <a href= "juegosRecomendados.html">Juegos Recomendados</a>
+                        <a href= "http://localhost/Proyecto2022/juegosRecomendados.php">Juegos Recomendados</a>
                     </li>
                     <li>
-                        <a href= "biblioteca.html">Biblioteca</a>
+                        <a href= "http://localhost/Proyecto2022/biblioteca.php">Biblioteca</a>
                     </li>
                     <li>
-                        <a href= "perfil.html">Perfil</a>
+                        <a href= "http://localhost/Proyecto2022/perfil.php">Perfil</a>
                     </li>
                     <li>
-                        <a href= "ayuda.html">Ayuda</a>
+                        <a href= "http://localhost/Proyecto2022/ayuda.php">Ayuda</a>
                     </li>
                     <li>
-                        <a href= "publicarJuego.html">Publicar Juego</a>
+                        <a href= "http://localhost/Proyecto2022/publicarJuego.php">Publicar Juego</a>
                     </li>
                 </ul>
             </nav>

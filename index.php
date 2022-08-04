@@ -42,11 +42,8 @@
 
         <div class="buscar">
             <input type="text" placeholder="Buscar..." required>
-                <div class="btn">
-                <i class="fas fa-search icon"></i>
-                </div> 
-
         </div> 
+
 
 </body>
 </html>

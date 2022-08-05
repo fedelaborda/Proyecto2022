@@ -41,7 +41,10 @@
         </div> 
 
         <div class="buscar">
-            <input type="text" placeholder="Buscar..." required>
+            <input type="text" placeholder="Buscar juegos" required>
+        </div> 
+        <div class="btnBuscar">
+            <input type="submit" value="Buscar">
         </div> 
 
 

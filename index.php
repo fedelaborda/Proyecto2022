@@ -46,6 +46,12 @@
         <div class="btnBuscar">
             <input type="submit" value="Buscar">
         </div> 
+        <div class="btnLogin">
+            <input type="submit" value="Iniciar sesión">
+        </div> 
+        <div class="btnRegistro">
+            <input type="submit" value="Registrarse">
+        </div> 
 
 
 </body>

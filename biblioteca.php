@@ -20,7 +20,7 @@
     </div> 
     
     <aside class = "costado">
-        <h2>Juegos Descargados</h2>
+        <h2>Tus Juegos</h2>
         <ul>
             <li>
                 Juego 1

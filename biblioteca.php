@@ -24,13 +24,13 @@
         <ul>
             <li>
                 Juego 1
-            <li>
+            </li>
             <li>
                 Juego 2
-            <li>
+            </li>
             <li>
                 Juego 3
-            <li>
+            </li>
         <ul>
     </aside>
 

@@ -117,3 +117,28 @@ input[type="submit"]:hover{
     transition: .1s;
 }
 
+.banner{
+    width: 1300px;
+    height: 200px;
+    border: 2px solid black;
+    margin: auto;
+    
+    background-image: url(img/messi.jfif);
+    background-size: 100% 100%;
+
+    animation: banner 10s infinite;
+}
+
+@keyframes banner{
+    0%, 30% {
+        background-image: url(img/messi.jfif);
+    }
+
+    35%, 65% {
+        background-image: url(img/neymar.jfif);
+    }
+    
+    70%, 90% {
+        background-image: url(img/ronaldo.jfif);
+    }
+}

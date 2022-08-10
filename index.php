@@ -21,9 +21,6 @@
                         <a href= "http://localhost/Proyecto2022/index.php">Inicio</a>
                     </li>
                     <li>
-                        <a href= "http://localhost/Proyecto2022/juegosRecomendados.php">Juegos Recomendados</a>
-                    </li>
-                    <li>
                         <a href= "http://localhost/Proyecto2022/biblioteca.php">Biblioteca</a>
                     </li>
                     <li>
@@ -52,6 +49,9 @@
         <div class="btnRegistro">
             <input type="submit" value="Registrarse">
         </div> 
+
+        <div class="banner">
+        </div>
 
 
 </body>

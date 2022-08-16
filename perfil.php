@@ -7,15 +7,17 @@
     <title>Mi Perfil - OrtLauncher</title>
     <link rel="stylesheet" href="estiloperfil.css" />
 </head>
-<body>
 
-    <nav>
+<body>  
+
+<nav>
          <ul>
                 <li>
                 <a href= "http://localhost/Proyecto2022/index.php">Volver al Menú</a>
                 </li>
         </ul>
-    </nav>    
+    </nav>  
+
     
 <header>
         <h1>Nombre de perfil<h1>

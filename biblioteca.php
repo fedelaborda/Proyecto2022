@@ -10,22 +10,24 @@
 <body>
     <div id = "buscar">
         <header>
-            <div class="buscar">
+            
+        <nav>
+                <ul>
+                    <li>
+                        <a href= "http://localhost/Proyecto2022/index.php">Volver al Menú</a>
+                    </li>
+                </ul>
+        </nav>        
+
+        <div class="buscar">
                 <input type="text" placeholder="Buscar..." required>
             </div> 
             <div class="btnBuscar">
                 <input type="submit" value="Buscar">
             </div> 
+            
         </header>
     </div> 
-    
-    <nav>
-         <ul>
-                <li>
-                <a href= "http://localhost/Proyecto2022/index.php">Volver al Menú</a>
-                </li>
-        </ul>
-    </nav>
     
     <aside class = "costado">
         <h2>Tus Juegos</h2>

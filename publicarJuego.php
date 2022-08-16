@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Publicar - OrtLauncher</title>
     <link rel="stylesheet" href="estilopublicar.css" />
+    <script src="./publishGame.js"></script>
 </head>
 <body>
 
@@ -53,6 +54,10 @@
     </select>
 
     </select>
+
+    <div id="drop_zone" ondrop="dropHandler(event);" ondragover="dragOverHandler(event);">
+  <p>Arrastra y suelta uno o más archivos a esta zona ...</p>
+</div>
 
 
 </body>

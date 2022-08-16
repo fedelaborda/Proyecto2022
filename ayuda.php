@@ -7,6 +7,12 @@
     <title>Ayuda - OrtLauncher</title>
 </head>
 <body>
-    
+<nav>
+         <ul>
+                <li>
+                <a href= "http://localhost/Proyecto2022/index.php">Volver al Menú</a>
+                </li>
+        </ul>
+    </nav>
 </body>
 </html>

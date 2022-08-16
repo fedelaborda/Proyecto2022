@@ -19,6 +19,14 @@
         </header>
     </div> 
     
+    <nav>
+         <ul>
+                <li>
+                <a href= "http://localhost/Proyecto2022/index.php">Volver al Menú</a>
+                </li>
+        </ul>
+    </nav>
+    
     <aside class = "costado">
         <h2>Tus Juegos</h2>
         <ul>

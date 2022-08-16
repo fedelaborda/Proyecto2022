@@ -8,7 +8,16 @@
     <link rel="stylesheet" href="estiloperfil.css" />
 </head>
 <body>
-    <header>
+
+    <nav>
+         <ul>
+                <li>
+                <a href= "http://localhost/Proyecto2022/index.php">Volver al Menú</a>
+                </li>
+        </ul>
+    </nav>    
+    
+<header>
         <h1>Nombre de perfil<h1>
     </header>
 

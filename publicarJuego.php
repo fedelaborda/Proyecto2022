@@ -8,9 +8,19 @@
     <link rel="stylesheet" href="estilopublicar.css" />
 </head>
 <body>
-<header>
+
+    <nav>
+         <ul>
+                <li>
+                <a href= "http://localhost/Proyecto2022/index.php">Volver al Menú</a>
+                </li>
+        </ul>
+    </nav>
+
+    <header>
         <h1>Publicar<h1>
     </header>
+
 
     <input type = "text" placeholder = "Nombre del Juego/App"> <br>
     <input type = "text" placeholder = "Descripción"> <br>

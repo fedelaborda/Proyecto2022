@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Publicar - OrtLauncher</title>
     <link rel="stylesheet" href="estilopublicar.css" />
-    <script src="./publishGame.js"></script>
 </head>
 <body>
 
@@ -55,10 +54,16 @@
 
     </select>
 
-    <div id="drop_zone" ondrop="dropHandler(event);" ondragover="dragOverHandler(event);">
-  <p>Arrastra y suelta uno o más archivos a esta zona ...</p>
-</div>
+    <div class = "drag-area">
+        <h2>Arrastra y suelta imágenes</h2>
+        <span>0</span>
+        <button>Selecciona tus archivos</button>
+        <input type="file" name="" id="input-file" hidden multiple />
+    </div>
 
+    <div id="preview"></div>
+
+    <script src="publishGame.js"></script>
 
 </body>
 </html>

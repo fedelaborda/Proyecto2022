@@ -60,10 +60,11 @@
         <button>Selecciona tus archivos</button>
         <input type="file" name="" id="input-file" hidden multiple />
     </div>
+    
+    <script src="publishGame.js"></script>
 
     <div id="preview"></div>
 
-    <script src="publishGame.js"></script>
 
 </body>
 </html>

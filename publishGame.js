@@ -1,63 +1,67 @@
-const dropArea = document.querySelector(".drop-area");
-const dragArea = dropArea.querySelector("h2");
-const button = dropArea.querySelector("button");
-const input = dropArea.querySelector("#input-file");
+document.addEventListener("DOMContentLoaded", () => {
 
-button.addEventListener("click", (e) => {
-  input.click();
-});
+  const dropArea = document.querySelector(".drag-area");
+  const dragText = dropArea.querySelector("h2");
+  const button = dropArea.querySelector("button");
+  const input = dropArea.querySelector("#input-file");
 
-input.addEventListener("change", (e) => {
-  files = this.files;
-  dropArea.classList.add("active");
-  showFiles(files);
-  dropArea.classList.remove("active");
-});
+  button.addEventListener("click", (e) => {
+    input.click();
+  });
 
-dropArea.addEventListener("dragover", (e) => {
-  e.preventDefault();
-  files = e.dataTransfer.files;
-  showFiles(files);
-  dropArea.classList.add("active");
-  dragText.textContent = "Suelta para subir los archivos";
-});
+  input.addEventListener("change", (e) => {
+    files = this.files;
+    dropArea.classList.add("active");
+    showFiles(files);
+    dropArea.classList.remove("active");
+  });
 
-dropArea.addEventListener("dragleave", (e) => {
-  e.preventDefault();
-  dropArea.classList.add("active");
-  dragText.textContent = "Arrastra y suelta archivos";
-});
+  dropArea.addEventListener("dragover", (e) => {
+    e.preventDefault();
+    files = e.dataTransfer.files;
+    showFiles(files);
+    dropArea.classList.add("active");
+    dragText.textContent = "Suelta para subir los archivos";
+  });
 
-dropArea.addEventListener("drop", (e) => {
-  e.preventDefault();
-  dropArea.classList.add("active");
-  dragText.textContent = "Arrastra y suelta archivos";
-});
+  dropArea.addEventListener("dragleave", (e) => {
+    e.preventDefault();
+    dropArea.classList.add("active");
+    dragText.textContent = "Arrastra y suelta archivos";
+  });
+
+  dropArea.addEventListener("drop", (e) => {
+    e.preventDefault();
+    files = e.dataTransfer.files;
+    showFiles(files);
+    dropArea.classList.add("active");
+    dragText.textContent = "Arrastra y suelta archivos";
+  });
 
 
-function showFiles(files) {
-  if(files.length == undefined){
-    processFile(files);
-  }
-  else{
-    for(const file of files){
-      processFile(file);
+  function showFiles(files) {
+    if (files.length == undefined) {
+      processFile(files);
+    }
+    else {
+      for (const file of files) {
+        processFile(file);
+      }
     }
   }
-}
 
-function processFile(file){
-  const docType = file.type;
-  const validExtensions=["image/jpeg","image/jpg","image/png","image/gif"];
- }
-  if(validExtensions.includes(docType)){
-     // archivo válido
-     const fileReader = new FileReader();
-     const id = `file-${Math.random().toString(32).substring(7)}`;
+  function processFile(file) {
+    const docType = file.type;
+    const validExtensions = ['image/jpeg', 'image/jpg', 'image/png', 'image/gif'];
+  }
+  if (validExtensions.includes(docType)) {
+    // archivo válido
+    const fileReader = new FileReader();
+    const id = `file-${Math.random().toString(32).substring(7)}`;
 
-     fileReader.addEventListener('load', e =>{
-        const fileUrl = fileReader.result;
-        const image = `
+    fileReader.addEventListener('load', e => {
+      const fileUrl = fileReader.result;
+      const image = `
           <div id= "${id}" class = "file-container">
             <img src = "${fileUrl}" alt="${file.name}" width="50">
             <div class="status">
@@ -69,18 +73,19 @@ function processFile(file){
           </div>
         `;
 
-        const html = document.querySelector("#preview").innerHTML;
-        document.querySelector('#preview').innerHTML = image + html;
+      const html = document.querySelector("#preview").innerHTML;
+      document.querySelector('#preview').innerHTML = image + html;
 
-     });
+    });
 
-     fileReader.readAsDataURL(file);
-     uploadFile(file, id);
-  }else{
-     // no es un archivo válido
-     //alert("No es un archivo válido");
+    fileReader.readAsDataURL(file);
+    uploadFile(file, id);
+  } else {
+    // no es un archivo válido
+    alert("No es un archivo válido");
   }
 
   function uploadFile(file) {
 
   }
+});

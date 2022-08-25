@@ -90,6 +90,21 @@ document.addEventListener("DOMContentLoaded", () => {
   
 
   function uploadFile(file) {
+    const formData = new formData();
+    formData.append("file", file);
 
+    try{
+      const response = await fetch("http://localhost:3000/upload", {
+        method: "POST", 
+        body: formData,
+      });
+
+      const responseText = await response.text();
+
+      document.querySelector(`#${id} .status-text`).innerHTML = `<span class="success">Archivo subido correstamente...</span>`;
+
+    } catch{
+
+    }
   }
 });

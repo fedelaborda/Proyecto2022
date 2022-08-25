@@ -44,12 +44,10 @@
             <input type="submit" value="Buscar">
         </div> 
         <div class="btnLogin">
-            <input type="submit" value="Iniciar sesión">
-            <a href= "http://localhost/Proyecto2022/login.php">
+            <a href= "http://localhost/Proyecto2022/login.php">Iniciar Sesión</a>
         </div> 
         <div class="btnRegistro">
-            <input type="submit" value="Registrarse">
-            <a href= "http://localhost/Proyecto2022/registrarse.php">     
+            <a href= "http://localhost/Proyecto2022/registrarse.php">Registrarse</a>     
         </div> 
 
         <div class="banner">
@@ -63,7 +61,7 @@
               <img src="ig.png" width="50px">
           </div>
           <div class="fc">
-           <a href="https://www.wattpad.com/amp/837524206"> <img src="fc.png" width="50px"></a>
+           <img src="fc.png" width="50px"></a>
           </div>
           <div class="redit">
             <img src="redit.png" width="52px">

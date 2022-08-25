@@ -7,6 +7,15 @@
     <title>Registrarse</title>
     <link rel="stylesheet" href="registrarse.css">
 </head>
+
+<nav>
+                <ul>
+                    <li>
+                        <a href= "http://localhost/Proyecto2022/index.php">Volver al Menú</a>
+                    </li>
+                </ul>
+        </nav>  
+
 <body>
     <div class="registro">
     <h2>Registra un nuevo usuario</h2>
@@ -30,7 +39,7 @@
     </div>
 
     <div class="link">
-    <span> Ya tenes cuenta? <a href="http://localhost/ANTEPROYECTO/login.php">Iniciar Sesión</a></span>
+    <span> Ya tenes cuenta? <a href="http://localhost/Proyecto2022/login.php">Iniciar Sesión</a></span>
     </div>
 
     
@@ -46,10 +55,10 @@
               <img src="ig.png" width="50px">
           </div>
           <div class="fc">
-           <a href="https://www.wattpad.com/amp/837524206"> <img src="fc.png" width="50px"></a>
+              <img src="fc.png" width="50px"></a>
           </div>
           <div class="redit">
-            <img src="redit.png" width="52px">
+              <img src="redit.png" width="52px">
           </div>
           <label class="copy">Ort Launcher © Todos los derechos reservados</label>
           <label class="donar"><a href="http://localhost/ANTEPROYECTO/donaciones.php">Donaciones</a></label>

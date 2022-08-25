@@ -7,6 +7,15 @@
     <title>Log In</title>
     <link rel="stylesheet" href="login.css">
 </head>
+
+<nav>
+                <ul>
+                    <li>
+                        <a href= "http://localhost/Proyecto2022/index.php">Volver al Menú</a>
+                    </li>
+                </ul>
+        </nav>  
+
 <body>
     <div class="formulario">
       <h2>Inicia Sesión con tu cuenta</h2>
@@ -26,7 +35,7 @@
       </div>
 
       <div class="link">  
-        <span>Quiero <a href="http://localhost/ANTEPROYECTO/registrarse.php">Registrarme</a></span>
+        <span>Quiero <a href="http://localhost/Proyecto2022/registrarse.php">Registrarme</a></span>
         <br>
         </div>
         <div class="link2">
@@ -45,7 +54,7 @@
               <img src="ig.png" width="50px">
           </div>
           <div class="fc">
-           <a href="https://www.wattpad.com/amp/837524206"> <img src="fc.png" width="50px"></a>
+           <img src="fc.png" width="50px"></a>
           </div>
           <div class="redit">
             <img src="redit.png" width="52px">

@@ -101,10 +101,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
       const responseText = await response.text();
 
-      document.querySelector(`#${id} .status-text`).innerHTML = `<span class="success">Archivo subido correstamente...</span>`;
+      document.querySelector(
+        `#${id} .status-text`
+        ).innerHTML = `<span class="success">Archivo subido correctamente...</span>`;
 
-    } catch{
-
+    } catch(error) {
+      document.querySelector(
+        `#${id} .status-text`
+        ).innerHTML = `<span class="failure">El archivo no ha podido subirse...</span>`;
     }
   }
 });

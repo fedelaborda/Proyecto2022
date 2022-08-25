@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   dropArea.addEventListener("dragleave", (e) => {
     e.preventDefault();
-    dropArea.classList.add("active");
+    dropArea.classList.remove("active");
     dragText.textContent = "Arrastra y suelta archivos";
   });
 
@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", () => {
     e.preventDefault();
     files = e.dataTransfer.files;
     showFiles(files);
-    dropArea.classList.add("active");
+    dropArea.classList.remove("active");
     dragText.textContent = "Arrastra y suelta archivos";
   });
 
@@ -53,37 +53,41 @@ document.addEventListener("DOMContentLoaded", () => {
   function processFile(file) {
     const docType = file.type;
     const validExtensions = ['image/jpeg', 'image/jpg', 'image/png', 'image/gif'];
-  }
-  if (validExtensions.includes(docType)) {
-    // archivo válido
-    const fileReader = new FileReader();
-    const id = `file-${Math.random().toString(32).substring(7)}`;
-
-    fileReader.addEventListener('load', e => {
-      const fileUrl = fileReader.result;
-      const image = `
-          <div id= "${id}" class = "file-container">
-            <img src = "${fileUrl}" alt="${file.name}" width="50">
-            <div class="status">
-              <span>${file.name}</span>
-              <span class="status-text">
-                Loading...
-              </span>
+  
+    if (validExtensions.includes(docType)) {
+      // archivo válido
+      const fileReader = new FileReader();
+      const id = `file-${Math.random().toString(32).substring(7)}`;
+  
+      fileReader.addEventListener('load', e => {
+        const fileUrl = fileReader.result;
+        const image = `
+            <div id= "${id}" class = "file-container">
+              <img src = "${fileUrl}" alt="${file.name}" width="50">
+              <div class="status">
+                <span>${file.name}</span>
+                <span class="status-text">
+                  Loading...
+                </span>
+              </div>
             </div>
-          </div>
-        `;
+          `;
+  
+        const html = document.querySelector("#preview").innerHTML;
+        document.querySelector('#preview').innerHTML = image + html;
+  
+      });
+  
+      fileReader.readAsDataURL(file);
+      uploadFile(file, id);
+    } else {
+      // no es un archivo válido
+      alert("No es un archivo válido");
+    }
 
-      const html = document.querySelector("#preview").innerHTML;
-      document.querySelector('#preview').innerHTML = image + html;
-
-    });
-
-    fileReader.readAsDataURL(file);
-    uploadFile(file, id);
-  } else {
-    // no es un archivo válido
-    alert("No es un archivo válido");
   }
+
+  
 
   function uploadFile(file) {
 

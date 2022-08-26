@@ -89,7 +89,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   
 
-  function uploadFile(file) {
+  async function uploadFile(file, id) {
     const formData = new formData();
     formData.append("file", file);
 

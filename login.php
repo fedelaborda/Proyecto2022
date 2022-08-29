@@ -20,13 +20,18 @@
     <div class="formulario">
       <h2>Inicia Sesión con tu cuenta</h2>
       <form method=POST> 
-    
+      
+      
       <div class="usuario">
       <input type="email" name="mail" placeholder="Correo Electronico" required> <br>
+      <form action="./sesionhandler2.php" method=POST>
+
       </div>
 
+      
       <div class="contraseña">
-      <input type="password" name="contraseña" placeholder="Contraseña" required> <br>
+      <input type="password" name="contrasenias" placeholder="Contraseña" required> <br>
+      <form action="./sesionhandler2.php" method=POST>
       </div>
       
       <div class="submit">
@@ -54,7 +59,7 @@
               <img src="ig.png" width="50px">
           </div>
           <div class="fc">
-           <img src="fc.png" width="50px"></a>
+           <img src="fc.png" width="50px">
           </div>
           <div class="redit">
             <img src="redit.png" width="52px">

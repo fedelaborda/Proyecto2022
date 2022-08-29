@@ -73,7 +73,7 @@
               <img src="ig.png" width="50px">
           </div>
           <div class="fc">
-           <a href="https://www.wattpad.com/amp/837524206"> <img src="fc.png" width="50px"></a>
+                <img src="fc.png" width="50px">
           </div>
           <div class="redit">
             <img src="redit.png" width="52px">

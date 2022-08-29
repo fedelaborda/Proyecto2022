@@ -20,15 +20,17 @@
     <div class="registro">
     <h2>Registra un nuevo usuario</h2>
 
-    <form method=POST>
+    <form action="sesionhandler.php" method=POST>
     <div class="usuario">
     <input type="email" name="mail" placeholder="Correo Electronico" required> <br>
     </div>
-
+    
+    <form action="sesionhandler.php" method=POST>
     <div class="contraseña">
-    <input type="password" name="contraseña" placeholder="Contraseña" required> <br>
+    <input type="password" name="contrasenias" placeholder="Contraseña" required> <br>
     </div>
-
+    
+    <form action="sesionhandler.php" method=POST>
     <div class="confirmacion">
     <input type="password" name="confirmar" placeholder="Confirmar contraseña" required> <br>
     </div>

@@ -31,6 +31,13 @@ nav ul li{
         line-height: 0px;
         color: white;
 }
+#container a{
+    color: blue;
+}
+#container a:hover{
+    color:rgb(0, 0, 0);
+    transition:.3s;
+}
 
 .buscar{
     position: center;
@@ -87,10 +94,14 @@ input[type="submit"]:hover{
 .btnLogin{
     position: absolute;
     color: white;
-    width: 30px;  
+    width: 50px;  
     left: 1148px;
     height: 30px;
     top: 155px;
+}
+
+.btnLogin a{
+    color: white
 }
 
 .btnRegistro{
@@ -100,6 +111,10 @@ input[type="submit"]:hover{
     height: 30px;
     top: 155px;
     border-color: white;
+}
+
+.btnRegistro a{
+    color:white;
 }
 
 .banner{

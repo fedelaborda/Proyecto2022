@@ -1,62 +1,71 @@
 body{
-    background: rgb(27, 27, 27);
+    background: rgb(22, 21, 21);
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+}
+#container{
+    width: 98%;
+    margin: 10px;
     color: white;
+}
+
+#container a{
+    color: blue;
+}
+
+#container a:hover{
+   color:rgb(0, 0, 0);
+   transition:.3s;
+}
+
+header{
+    background: rgb(36, 34, 34);
+    height: 80px;
+    text-align: center;
+    border: 1.5px solid black;
+}
+
+nav{
+    background: rgb(139, 136, 136);
+    height: 50px;
+    border: 1.5px solid black;
 }
 
 nav ul li{
-    position: relative;
-    list-style: none;
-    font-size: 20px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; ;
-    color: white;
+        float: left;
+        list-style: none;
+        margin: 10px;
+        font-size: 20px; 
+        line-height: 0px;
 }
-
-.buscar{
-    position: center;
-    top: 5px;
-    
-    display: flex;
-    justify-content: center;
+.juegos{
+   display: flex;
+   justify-content: space-evenly;
 }
-
-.buscar input{
-    position: center;
-    width: 40%;
-    height: 25px;
-    padding: 0 20px;
-    font-size: 12px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; ;
-    color: #000;
-    outline: none;
-    border: 1px solid silver;
-    border-radius: 30px;
-    line-height: 0px;
+.juego{
+    width: 250px;
+    position: static;
+    margin-top: 15px;
+    border: 1.5px solid black;
+    background-color: pink;
+    margin-left: 12px;
+    height: 350px;
 }
-.btnBuscar{
-    position: absolute;
-    width: 30px;  
-    left: 980px;
-    height: 30px;
-    top: 57px;
+.juego label{
+   color: white;
+   position: static;
+   font-size: 18px;
+   margin-left: 10px;
+   margin-top: 5px;
 }
-input[type="submit"]{
-    border-radius: 25px;
-    height: 30px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; ;
-    line-height: 0px;
-}
-input[type="submit"]:hover{
-    border-color: white;
-    transition: .1s;
-}
-aside{
-    margin-left: 40px;
+.juego:hover{
+   width: 270px;
+   height: 380px;
+   transition:.3s;
 }
 footer{
     position: relative;
     right: 8px;
-    top: 708px;
+    top: 8px;
     width: 1348px;
     height: 250px;
     background: rgb(14, 14, 14);
@@ -74,7 +83,7 @@ footer{
     width: 50px;
     top: 10px;
  }
- 
+
  footer .fc{
    position: relative;
    bottom: 20px;
@@ -82,7 +91,7 @@ footer{
    width: 50px;
    left: 640px;
 }
- 
+
 footer .redit{
    position: relative;
    bottom: 40px;
@@ -115,12 +124,9 @@ footer .panas{
    color: rgb(92, 88, 88);
    border-bottom: blanchedalmond;
    text-align: center;
-   left: 200px;
+   left: 225px;
    top:80px;
 }
 footer a{
    color: rgb(92, 88, 88);
 }
-
-
-

@@ -21,7 +21,10 @@ else if($_POST["contrasenias"] == $_POST ["confirmar"]){
     $result2 = DB::getInstance()->query($query2,array($_POST["mail"],array($_POST["contrasenias"])));
     //en este if comparo la info que pusieron en el POST de contraseña y en el de confirmar, y si son iguales como deberia de ser se ejecuta la funcion query2 que
     // inserta a la base de datos los valores del mail y la contrseña haciendo asi que ya queden dentro de la base de datos
+    
+
 }
+
 
 else{
     echo "Confirme su contrseña!!";

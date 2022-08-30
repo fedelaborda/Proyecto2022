@@ -8,43 +8,51 @@
     <link rel="stylesheet" href="estilobiblioteca.css" />
 </head>
 <body>
-    <div id = "buscar">
-        <header>
+        <div id = "container">
+            <header>
+                <h1> Ort Launcher</h1>
+            </header>
             
-        <nav>
+            <nav>
                 <ul>
                     <li>
-                        <a href= "http://localhost/Proyecto2022/index.php">Volver al Menú</a>
+                        <a href= "http://localhost/Proyecto2022/index.php">Inicio</a>
+                    </li>
+                    <li>
+                        <a href= "http://localhost/Proyecto2022/biblioteca.php">Biblioteca</a>
+                    </li>
+                    <li>
+                        <a href= "http://localhost/Proyecto2022/perfil.php">Perfil</a>
+                    </li>
+                    <li>
+                        <a href= "http://localhost/Proyecto2022/ayuda.php">Ayuda</a>
+                    </li>
+                    <li>
+                        <a href= "http://localhost/Proyecto2022/publicarJuego.php">Publicar Juego</a>
                     </li>
                 </ul>
-        </nav>        
-
-        <div class="buscar">
-                <input type="text" placeholder="Buscar..." required>
-            </div> 
-            <div class="btnBuscar">
-                <input type="submit" value="Buscar">
-            </div> 
-            
-        </header>
-    </div> 
+            </nav>
+        </div> 
+        
+        <div class="juegos">
+            <div class="juego">
+               <label class="j1">Juego 1 ejemplo</label>
+            </div>
     
-    <aside class = "costado">
-        <h2>Tus Juegos</h2>
-        <ul>
-            <li>
-                Juego 1
-            </li>
-            <li>
-                Juego 2
-            </li>
-            <li>
-                Juego 3
-            </li>
-        <ul>
-    </aside>
+            <div class="juego">
+               <label class="j2">Juego 2 ejemplo</label>
+            </div>
+    
+            <div class="juego">
+               <label class="j3">Juego 3 ejemplo</label>
+            </div>
 
-    <footer>
+            <div class="juego">
+                <label class="j3">Juego 4 ejemplo</label>
+            </div>
+        </div>
+
+        <footer>
           <div class="contenedor">
             <h2 class="titulo">Medios de contacto:</h2>
           </div>
@@ -52,7 +60,7 @@
               <img src="ig.png" width="50px">
           </div>
           <div class="fc">
-                <img src="fc.png" width="50px">
+           <a href="https://www.wattpad.com/amp/837524206"> <img src="fc.png" width="50px"></a>
           </div>
           <div class="redit">
             <img src="redit.png" width="52px">
@@ -61,6 +69,5 @@
           <label class="donar"><a href="http://localhost/ANTEPROYECTO/donaciones.php">Donaciones</a></label>
           <label class="panas"><a href="nuestra informacion">Sobre Nosotros</a></label>
       </footer>
-
 </body>
 </html>

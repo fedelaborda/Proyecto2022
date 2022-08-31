@@ -13,10 +13,17 @@ nav ul li{
     color: white;
     
 }
+nav ul li a {
+    color: blue;
+}
+nav ul li a:hover{
+    color: white;
+    transition:.3s;
+}
 .drag-area {
     border: 5px dashed #ddd;
-    width:  500px;
-    height: 700px;
+    width:  350px;
+    height: 400px;
     border-radius: 5px;
     display: flex;
     align-items: center;
@@ -34,6 +41,7 @@ nav ul li{
     font-size: 30px;
     font-weight: 500;
     color: #000;
+    text-align: center;
   }
 
   .drag-area span {

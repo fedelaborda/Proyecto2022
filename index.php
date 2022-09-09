@@ -34,15 +34,18 @@
                     <span class ="menu_text"> Inicio </span>
                 </a>
                 <a class="menu_item" href= "http://localhost/Proyecto2022/biblioteca.php">
+                    <img class="menu_icon" src="C:\AppServ\www\Proyecto2022\img\Biblioteca.png">
                     <span class ="menu_text"> Biblioteca </span>
                 </a>
                 <a class="menu_item" href= "http://localhost/Proyecto2022/perfil.php">
                     <span class ="menu_text"> Perfil </span>
                 </a>
                 <a class="menu_item" href= "http://localhost/Proyecto2022/ayuda.php">
+                    <img class="menu_icon" src="C:\AppServ\www\Proyecto2022\img\ayuda.png">
                     <span class ="menu_text"> Ayuda </span>
                 </a>
                 <a class="menu_item" href= "http://localhost/Proyecto2022/publicarJuego.php">
+                    <img class="menu_icon" src="C:\AppServ\www\Proyecto2022\img\juegos.png">
                     <span class ="menu_text"> Publicar Juego </span>
                 </a>
             </div>

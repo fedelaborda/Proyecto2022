@@ -22,13 +22,15 @@ nav ul li a:hover{
 }
 .drag-area {
     border: 5px dashed #ddd;
-    width:  350px;
+    width: 350px;
     height: 400px;
     border-radius: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    display: flex;
+    justify-content: space-evenly;
   }
 
   .drag-area.active{
@@ -84,7 +86,6 @@ nav ul li a:hover{
   .failure{
       color: #ff0000;
   }
-
 
   footer{
     position: relative;

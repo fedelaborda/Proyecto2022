@@ -1,35 +1,132 @@
 body{
-    background: rgb(27, 27, 27);
+    background: rgb(22, 21, 21);
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
 }
 
-#container{
-    width: 98%;
-    margin: 10px;
+
+.header{
+    background-color: var(--color-transparent-dark-1);
+    grid-column: span 2;
+    height: var(--heightHeader);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0 0.5rem;
+    -webkit-box-shadow: 0 0 10px var(--color-transparent-dark);
+    box-shadow: 0 0 10px var(--color-transparent-dark);
+    z-index: 4;
+}
+.main-title{
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 100%;
+    padding: 0 0.5rem
+}
+.main-title a{
+    color: white;
+    font-size: xx-large;
+}
+
+.header_btn{
+    padding: 1rem;
+    height: 100%;
+    border-radius: 20px;
+    background-color: rgb(3, 100, 190);;
+}
+.header_btn:hover{
+    color: lightblue;
+    transition: 3s;
+}
+.header_btn a{
+    color:white;
+}
+.header_btn a:hover{
+    color:rgb(0, 0, 0);
+    transition:.3s;
+}
+
+.menu {
+    position: relative;
+    width: 10%;
+    height: 100%;
+}
+.menu_wrapper {
+        background-color: var(--color-transparent-dark-1);
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        height: calc(100vh - var(--heightHeader));
+        width: var(--widthSilebar);
+        top: 0;
+        left: 0;
+        overflow-y: scroll;
+        overflow-x: hidden;
+}
+.menu_item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    color: #fff;
+    min-height: 3.5rem;
+    width: 100%;
+    padding: 0;
+    margin: 0.2rem 0;
+    cursor: pointer;
+}
+
+.menu{
+    position: absolute;
+}
+/*
+
+aside{
+    background: rgb(25, 25 25);
+    height: 500px;
+    float: left;
+    list-style: none;
+    margin: 1px;
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; ;
+    line-height: 30px;
     color: white;
 }
 
-header{
-    background: rgb(63, 63, 63);
-    height: 75px;
-    text-align: center;
-    border: 1.5px solid black;
-}
-
-nav{
-    background: rgb(199, 199, 199);
-    height: 50px;
-    border: 1.5px solid black;
-}
-
 nav ul li{
-        float: left;
-        list-style: none;
-        margin: 10px;
-        font-size: 20px;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; ;
-        line-height: 0px;
-        color: white;
+    float: left;
+    list-style: none;
+    margin: 1px;
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; ;
+    line-height: 30px;
+    color: white;
 }
 #container a{
     color: blue;
@@ -38,11 +135,10 @@ nav ul li{
     color:rgb(0, 0, 0);
     transition:.3s;
 }
-
+*/
 .buscar{
     position: center;
     padding: 5px;
-    
     display: flex;
     justify-content: center;
 }
@@ -76,9 +172,9 @@ nav ul li{
 .btnBuscar{
     position: absolute;
     width: 30px;  
-    left: 968px;
+    left: 975px;
     height: 30px;
-    top: 155px;
+    top: 279px;
 }
 input[type="submit"]{
     border-radius: 25px;
@@ -91,37 +187,12 @@ input[type="submit"]:hover{
     transition: .1s;
 }
 
-.btnLogin{
-    position: absolute;
-    color: white;
-    width: 50px;  
-    left: 1148px;
-    height: 30px;
-    top: 155px;
-}
-
-.btnLogin a{
-    color: white
-}
-
-.btnRegistro{
-    position: absolute;
-    width: 30px;  
-    left: 1246px;
-    height: 30px;
-    top: 155px;
-    border-color: white;
-}
-
-.btnRegistro a{
-    color:white;
-}
-
 .banner{
-    width: 1300px;
+    width: 1000px;
     height: 200px;
     border: 2px solid black;
     margin: auto;
+    left: 20px;
     
     background-image: url(img/messi.jfif);
     background-size: 100% 100%;

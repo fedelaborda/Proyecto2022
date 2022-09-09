@@ -10,48 +10,60 @@
     crossorigin="annonymus"></script>
 </head>
 <body>
-        <div id = "container">
-            <header>
-                <h1> Ort Launcher</h1>
-            </header>
+    <div id = "container">
+        <header class="header">
+            <div class="main-title">
+                <a href="http://localhost/Proyecto2022/index.php">Ort Launcher</a>
+            </div>
+
+            <div class="botones">
+                <button class="header_btn">
+                    <a href= "http://localhost/Proyecto2022/login.php">Iniciar Sesión</a> 
+                </button>
+
+                <button class="header_btn">
+                    <a href= "http://localhost/Proyecto2022/registrarse.php">Registrarse</a>
+                </button> 
+            </div>
+
+        </header>
             
-            <nav>
-                <ul>
-                    <li>
-                        <a href= "http://localhost/Proyecto2022/index.php">Inicio</a>
-                    </li>
-                    <li>
-                        <a href= "http://localhost/Proyecto2022/biblioteca.php">Biblioteca</a>
-                    </li>
-                    <li>
-                        <a href= "http://localhost/Proyecto2022/perfil.php">Perfil</a>
-                    </li>
-                    <li>
-                        <a href= "http://localhost/Proyecto2022/ayuda.php">Ayuda</a>
-                    </li>
-                    <li>
-                        <a href= "http://localhost/Proyecto2022/publicarJuego.php">Publicar Juego</a>
-                    </li>
-                </ul>
-            </nav>
+        <nav class="menu">
+            <div class="menu_wrapper">
+                <a class="menu_item on" href= "http://localhost/Proyecto2022/index.php">
+                    <span class ="menu_text"> Inicio </span>
+                </a>
+                <a class="menu_item" href= "http://localhost/Proyecto2022/biblioteca.php">
+                    <span class ="menu_text"> Biblioteca </span>
+                </a>
+                <a class="menu_item" href= "http://localhost/Proyecto2022/perfil.php">
+                    <span class ="menu_text"> Perfil </span>
+                </a>
+                <a class="menu_item" href= "http://localhost/Proyecto2022/ayuda.php">
+                    <span class ="menu_text"> Ayuda </span>
+                </a>
+                <a class="menu_item" href= "http://localhost/Proyecto2022/publicarJuego.php">
+                    <span class ="menu_text"> Publicar Juego </span>
+                </a>
+            </div>
+        </nav>
 
-        </div> 
+        <main class="main">
+            <section class="banner">
 
-        <div class="buscar">
-            <input type="text" placeholder="Buscar juegos" required>
-        </div> 
-        <div class="btnBuscar">
-            <input type="submit" value="Buscar">
-        </div> 
-        <div class="btnLogin">
-            <a href= "http://localhost/Proyecto2022/login.php">Iniciar Sesión</a>
-        </div> 
-        <div class="btnRegistro">
-            <a href= "http://localhost/Proyecto2022/registrarse.php">Registrarse</a>     
-        </div> 
+            </section>
+            <div class="buscar">
+                <input type="text" placeholder="Buscar juegos" required>
+            </div> 
 
-        <div class="banner">
-        </div>
+            <div class="btnBuscar">
+                <input type="submit" value="Buscar">
+            </div> 
+             
+            <section class="section">
+                
+            </section>
+        </main>
 
         <footer>          
           <div class="contenedor">
@@ -70,6 +82,7 @@
           <label class="donar"><a href="http://localhost/ANTEPROYECTO/donaciones.php">Donaciones</a></label>
           <label class="panas"><a href="nuestra información">Sobre Nosotros</a></label>
       </footer>
+    </div>
 
 
 </body>

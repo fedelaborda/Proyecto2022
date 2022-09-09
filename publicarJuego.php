@@ -61,8 +61,15 @@
         <input type="file" name="" id="input-file" hidden multiple />
     </div>
     
-    <script src="publishGame.js"></script>
+    <div id="preview"></div>
 
+    <div class = "drag-area">
+        <h2>Arrastra y suelta un archivo .zip</h2>
+        <span>0</span>
+        <button>Selecciona tus archivos</button>
+        <input type="file" name="" id="input-file" hidden multiple />
+    </div>
+    <script src="publishGame.js"></script>
     <div id="preview"></div>
 
     <footer>

@@ -6,6 +6,7 @@ body{
 
 .header{
     background-color: var(--color-transparent-dark-1);
+    background: rgb(14, 14, 14);
     grid-column: span 2;
     height: var(--heightHeader);
     display: -webkit-box;
@@ -17,9 +18,11 @@ body{
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    width: 100%;
+    width: 99%;
+    height: 75px;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    border-bottom: white;
     padding: 0 0.5rem;
     -webkit-box-shadow: 0 0 10px var(--color-transparent-dark);
     box-shadow: 0 0 10px var(--color-transparent-dark);
@@ -172,9 +175,9 @@ nav ul li{
 .btnBuscar{
     position: absolute;
     width: 30px;  
-    left: 975px;
+    left: 972px;
     height: 30px;
-    top: 279px;
+    top: 313px;
 }
 input[type="submit"]{
     border-radius: 25px;
@@ -194,7 +197,7 @@ input[type="submit"]:hover{
     margin: auto;
     left: 20px;
     
-    background-image: url(img/messi.jfif);
+    background-image: url(img/fall.jfif);
     background-size: 100% 100%;
 
     animation: banner 10s infinite;
@@ -202,15 +205,15 @@ input[type="submit"]:hover{
 
 @keyframes banner{
     0%, 30% {
-        background-image: url(img/messi.jfif);
+        background-image: url(img/fall.jfif);
     }
 
     35%, 65% {
-        background-image: url(img/neymar.jfif);
+        background-image: url(img/fort.jfif);
     }
     
-    70%, 90% {
-        background-image: url(img/ronaldo.jfif);
+    70%, 95% {
+        background-image: url(img/mine.jfif);
     }
 }
 

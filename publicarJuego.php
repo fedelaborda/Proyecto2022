@@ -12,7 +12,7 @@
     <nav>
          <ul>
                 <li>
-                <a href= "http://localhost/Proyecto2022/index.php">Volver al Menú</a>
+                <a href= "index.php">Volver al Menú</a>
                 </li>
         </ul>
     </nav>
@@ -86,7 +86,7 @@
             <img src="redit.png" width="52px">
           </div>
           <label class="copy">Ort Launcher © Todos los derechos reservados</label>
-          <label class="donar"><a href="http://localhost/ANTEPROYECTO/donaciones.php">Donaciones</a></label>
+          <label class="donar"><a href="donaciones.php">Donaciones</a></label>
           <label class="panas"><a href="nuestra informacion">Sobre Nosotros</a></label>
       </footer>
 

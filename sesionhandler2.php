@@ -1,4 +1,4 @@
-  <?php
+<?php
 
 include_once("./mysql_functions.php");
 
@@ -6,7 +6,7 @@ include_once("./mysql_functions.php");
 $EmailUsu = $_POST["mail"];
 
 
-$query = "SELECT Contrasenia FROM IniciosSesion WHERE NombreUsuario = ?";
+$query = "SELECT Contrasenia FROM InicioSesion WHERE NombreUsuario = ?";
 $result = DB::getInstance()->query($query,array($_POST["mail"]));
 
 
@@ -18,8 +18,10 @@ $result = DB::getInstance()->query($query,array($_POST["mail"]));
       $ContraseniaUsu = $row->Contrasenia;
   } 
     
-   if($ContraseniaUsu == $_POST["contrasenias"]){
-    echo"se ha logeado con exito";}
+   if($ContraseniaUsu == $_POST["contrasenia"]){
+    echo"se ha logeado con exito";
+    
+  }
 
     else {
       echo"Hay un error en los datos ingresados";

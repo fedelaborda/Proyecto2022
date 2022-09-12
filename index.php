@@ -13,16 +13,16 @@
     <div id = "container">
         <header class="header">
             <div class="main-title">
-                <a href="http://localhost/Proyecto2022/index.php">Ort Launcher</a>
+                <a href="index.php">Ort Launcher</a>
             </div>
 
             <div class="botones">
                 <button class="header_btn">
-                    <a href= "http://localhost/Proyecto2022/login.php">Iniciar Sesión</a> 
+                    <a href= "login.php">Iniciar Sesión</a> 
                 </button>
 
                 <button class="header_btn">
-                    <a href= "http://localhost/Proyecto2022/registrarse.php">Registrarse</a>
+                    <a href= "registrarse.php">Registrarse</a>
                 </button> 
             </div>
 
@@ -30,23 +30,23 @@
             
         <nav class="menu">
             <div class="menu_wrapper">
-                <a class="menu_item on" href= "http://localhost/Proyecto2022/index.php">
+                <a class="menu_item on" href= "index.php">
                     <span class ="menu_text"> Inicio </span>
                 </a>
-                <a class="menu_item" href= "http://localhost/Proyecto2022/biblioteca.php">
-                    <img class="menu_icon" src="C:\AppServ\www\Proyecto2022\img\Biblioteca.png">
-                    <span class ="menu_text"> Biblioteca </span>
+                <a class="menu_item" href= "biblioteca.php">
+                    <img class="menu_icon" src="img/biblioteca.png" width="100px">
+                    <!--<span class ="menu_text"> Biblioteca </span>-->
                 </a>
-                <a class="menu_item" href= "http://localhost/Proyecto2022/perfil.php">
+                <a class="menu_item" href= "perfil.php">
                     <span class ="menu_text"> Perfil </span>
                 </a>
-                <a class="menu_item" href= "http://localhost/Proyecto2022/ayuda.php">
-                    <img class="menu_icon" src="C:\AppServ\www\Proyecto2022\img\ayuda.png">
-                    <span class ="menu_text"> Ayuda </span>
+                <a class="menu_item" href= "ayuda.php">
+                    <img class="menu_icon" src="img/ayuda.png" width="130px">
+                    <!--<span class ="menu_text"> Ayuda </span>-->
                 </a>
-                <a class="menu_item" href= "http://localhost/Proyecto2022/publicarJuego.php">
-                    <img class="menu_icon" src="C:\AppServ\www\Proyecto2022\img\juegos.png">
-                    <span class ="menu_text"> Publicar Juego </span>
+                <a class="menu_item" href= "publicarJuego.php">
+                    <img class="menu_icon" src="img/juegos.png" width="100px">
+                    <!--<span class ="menu_text"> Publicar Juego </span>-->
                 </a>
             </div>
         </nav>
@@ -82,7 +82,7 @@
             <img src="redit.png" width="52px">
           </div>
           <label class="copy">Ort Launcher © Todos los derechos reservados</label>
-          <label class="donar"><a href="http://localhost/ANTEPROYECTO/donaciones.php">Donaciones</a></label>
+          <label class="donar"><a href="donaciones.php">Donaciones</a></label>
           <label class="panas"><a href="nuestra información">Sobre Nosotros</a></label>
       </footer>
     </div>

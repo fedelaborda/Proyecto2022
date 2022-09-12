@@ -11,27 +11,28 @@
 <nav>
                 <ul>
                     <li>
-                        <a href= "http://localhost/Proyecto2022/index.php">Volver al Menú</a>
+                        <a href= "index.php">Volver al Menú</a>
                     </li>
                 </ul>
         </nav>  
 
 <body>
+<form action="./sesionhandler2.php" method="POST">
     <div class="formulario">
       <h2>Inicia Sesión con tu cuenta</h2>
-      <form method=POST> 
+      <!--<form method=POST>--> 
       
       
       <div class="usuario">
       <input type="email" name="mail" placeholder="Correo Electronico" required> <br>
-      <form action="./sesionhandler2.php" method=POST>
+      
 
       </div>
 
       
       <div class="contraseña">
-      <input type="password" name="contrasenias" placeholder="Contraseña" required> <br>
-      <form action="./sesionhandler2.php" method=POST>
+      <input type="password" name="contrasenia" placeholder="Contraseña" required> <br>
+     <!-- <form action="./sesionhandler2.php" method=POST>-->
       </div>
       
       <div class="submit">
@@ -40,7 +41,7 @@
       </div>
 
       <div class="link">  
-        <span>Quiero <a href="http://localhost/Proyecto2022/registrarse.php">Registrarme</a></span>
+        <span>Quiero <a href="registrarse.php">Registrarme</a></span>
         <br>
         </div>
         <div class="link2">
@@ -65,7 +66,7 @@
             <img src="redit.png" width="52px">
           </div>
           <label class="copy">Ort Launcher © Todos los derechos reservados</label>
-          <label class="donar"><a href="http://localhost/ANTEPROYECTO/donaciones.php">Donaciones</a></label>
+          <label class="donar"><a href="donaciones.php">Donaciones</a></label>
           <label class="panas"><a href="nuestra informacion">Sobre Nosotros</a></label>
       </footer>
 

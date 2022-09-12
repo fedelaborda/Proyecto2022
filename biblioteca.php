@@ -16,19 +16,19 @@
             <nav>
                 <ul>
                     <li>
-                        <a href= "http://localhost/Proyecto2022/index.php">Inicio</a>
+                        <a href= "index.php">Inicio</a>
                     </li>
                     <li>
-                        <a href= "http://localhost/Proyecto2022/biblioteca.php">Biblioteca</a>
+                        <a href= "biblioteca.php">Biblioteca</a>
                     </li>
                     <li>
-                        <a href= "http://localhost/Proyecto2022/perfil.php">Perfil</a>
+                        <a href= "perfil.php">Perfil</a>
                     </li>
                     <li>
-                        <a href= "http://localhost/Proyecto2022/ayuda.php">Ayuda</a>
+                        <a href= "ayuda.php">Ayuda</a>
                     </li>
                     <li>
-                        <a href= "http://localhost/Proyecto2022/publicarJuego.php">Publicar Juego</a>
+                        <a href= "publicarJuego.php">Publicar Juego</a>
                     </li>
                 </ul>
             </nav>
@@ -57,13 +57,13 @@
             <h2 class="titulo">Medios de contacto:</h2>
           </div>
           <div class="ig">
-              <img src="ig.png" width="50px">
+                <img src="ig.png" width="50px">
           </div>
           <div class="fc">
-           <a href="https://www.wattpad.com/amp/837524206"> <img src="fc.png" width="50px"></a>
+                <img src="fc.png" width="50px"></a>
           </div>
           <div class="redit">
-            <img src="redit.png" width="52px">
+                <img src="redit.png" width="52px">
           </div>
           <label class="copy">Ort Launcher © Todos los derechos reservados</label>
           <label class="donar"><a href="http://localhost/ANTEPROYECTO/donaciones.php">Donaciones</a></label>

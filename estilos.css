@@ -19,10 +19,10 @@ body{
     -ms-flex-align: center;
     align-items: center;
     width: 99%;
-    height: 75px;
+    height: 110px;
     margin-top: 10px;
     margin-bottom: 20px;
-    border-bottom: white;
+    border: 1px solid black;
     padding: 0 0.5rem;
     -webkit-box-shadow: 0 0 10px var(--color-transparent-dark);
     box-shadow: 0 0 10px var(--color-transparent-dark);
@@ -39,9 +39,10 @@ body{
     height: 100%;
     padding: 0 0.5rem
 }
-.main-title a{
+.main-title label{
     color: white;
-    font-size: xx-large;
+    font-size: 40px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .header_btn{
@@ -139,7 +140,7 @@ nav ul li{
     transition:.3s;
 }
 */
-.buscar{
+/*.buscar{
     position: center;
     padding: 5px;
     display: flex;
@@ -172,12 +173,64 @@ nav ul li{
     right: 30px;
 }
 */
-.btnBuscar{
+/*.btnBuscar{
     position: absolute;
     width: 30px;  
     left: 972px;
     height: 30px;
     top: 313px;
+}
+input[type="submit"]{
+    border-radius: 25px;
+    height: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; ;
+    line-height: 0px;
+}
+input[type="submit"]:hover{
+    border-color: white;
+    transition: .1s;
+}
+.filtro{
+    
+}
+*/
+
+#busqueda{
+    margin-left: 90px;
+    padding: 1%;
+    width: 400px;
+    height: 25px;
+    position: center;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.buscar{
+    display: flex;
+    justify-content: center;
+}
+
+.buscar input{
+    width: 160px;
+    height: 25px;
+    padding: 0 20px;
+    font-size: 12px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; ;
+    color: #000;
+    outline: none;
+    border: 1px solid silver;
+    border-radius: 30px;
+    line-height: 0px;
+}
+.btnBuscar{
+    width: 30px;  
+    left: 972px;
+    height: 30px;
+    top: 313px;
+}
+.categoria{
+    border: 1px solid silver;
+    border-radius: 10px;
 }
 input[type="submit"]{
     border-radius: 25px;

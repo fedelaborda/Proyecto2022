@@ -52,8 +52,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
   function processFile(file) {
     const docType = file.type;
-    const validExtensions = ['image/jpeg', 'image/jpg', 'image/png', 'image/gif'];
-  
+    const validExtensions = ['image/jpeg', 'image/jpg', 'image/png', 'image/gif', 'application/x-zip-compressed'];
+    
     if (validExtensions.includes(docType)) {
       // archivo válido
       const fileReader = new FileReader();

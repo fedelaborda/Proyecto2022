@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="estilobiblioteca.css" />
 </head>
 <body>
-        <div id = "container">
+        <!--<div id = "container">
             <header>
                 <h1> Ort Launcher</h1>
             </header>
@@ -32,7 +32,51 @@
                     </li>
                 </ul>
             </nav>
-        </div> 
+        </div> -->
+
+        <div id = "container">
+            <header class="header">
+                <div class="main-title">
+                    <b><label class="Main">Ort Launcher</label></b>
+                </div>
+
+                <div class="botones">
+                    <button class="header_btn">
+                        <a href= "login.php">Iniciar Sesión</a> 
+                    </button>
+
+                    <button class="header_btn">
+                        <a href= "registrarse.php">Registrarse</a>
+                    </button> 
+                </div>
+
+            </header>
+            
+            <nav class="menu">
+                <div class="menu_wrapper">
+                    <a class="menu_item on" href= "index.php">
+                        <img class="menu_icon" src="img/inicio.png" width="80px">
+                        <!--<span class ="menu_text"> Inicio </span>-->
+                    </a>
+                    <a class="menu_item" href= "biblioteca.php">
+                        <img class="menu_icon" src="img/biblio.png" width="80px">
+                        <!--<span class ="menu_text"> Biblioteca </span>-->
+                    </a>
+                    <a class="menu_item" href= "perfil.php">
+                        <img class="menu_icon" src="img/logoperfil.png" width="80px">
+                        <!--<span class ="menu_text"> Perfil </span>-->
+                    </a>
+                    <a class="menu_item" href= "ayuda.php">
+                        <img class="menu_icon" src="img/ayuda.png" width="120px">
+                        <!--<span class ="menu_text"> Ayuda </span>-->
+                    </a>
+                    <a class="menu_item" href= "publicarJuego.php">
+                        <img class="menu_icon" src="img/juegos.png" width="80px">
+                        <!--<span class ="menu_text"> Publicar Juego </span>-->
+                    </a>
+                </div>
+            </nav>
+        </div>
         
         <div class="juegos">
             <div class="juego">

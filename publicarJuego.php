@@ -9,6 +9,23 @@
 </head>
 <body>
 
+        <header class="header">
+            <div class="main-title">
+                <b><label class="Main">Ort Launcher</label></b>
+            </div>
+
+            <div class="botones">
+                <button class="header_btn">
+                    <a href= "login.php">Iniciar Sesión</a> 
+                </button>
+
+                <button class="header_btn">
+                    <a href= "registrarse.php">Registrarse</a>
+                </button> 
+            </div>
+
+        </header>
+
     <nav>
          <ul>
                 <li>
@@ -16,11 +33,6 @@
                 </li>
         </ul>
     </nav>
-
-    <header>
-        <h1>Publicar<h1>
-    </header>
-
 
     <input type = "text" placeholder = "Nombre del Juego/App"> <br>
     <input type = "text" placeholder = "Descripción"> <br>
@@ -55,22 +67,14 @@
     </select>
 
     <div class = "drag-area">
-        <h2>Arrastra y suelta imágenes</h2>
+        <h2>Arrastra y suelta una imagen y un .zip</h2>
         <span>0</span>
         <button>Selecciona tus archivos</button>
         <input type="file" name="" id="input-file" hidden multiple />
     </div>
     
     <div id="preview"></div>
-
-    <div class = "drag-area">
-        <h2>Arrastra y suelta un archivo .zip</h2>
-        <span>0</span>
-        <button>Selecciona tus archivos</button>
-        <input type="file" name="" id="input-file" hidden multiple />
-    </div>
     <script src="publishGame.js"></script>
-    <div id="preview"></div>
 
     <footer>
           <div class="contenedor">

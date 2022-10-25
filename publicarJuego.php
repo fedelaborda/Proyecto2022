@@ -34,29 +34,36 @@
         </ul>
     </nav>
 
-    <input type = "text" placeholder = "Nombre del Juego/App"> <br>
-    <input type = "text" placeholder = "Descripción"> <br>
-    
+    <!--<form method = POST action="./registrojuegos.php">-->
+    <div class="contraseña">
+        <input type = "text" placeholder = "Nombre del Juego/App" nome="NomJuego"> <br>
+    </div>    
+       
+    <div class="contraseña">
+        <input type = "text" placeholder = "Descripción" name="DescJuego"> <br>
+    </div>
+
     <select name="Categoría">
         
-        <option value="0">Acción</option>
-        <option value="1">Arcade</option>
-        <option value="2">Aviones</option>
-        <option value="3">Aventura</option>
-        <option value="4">Carreras</option>
-        <option value="5">Cocina</option>
-        <option value="6">Construcción</option>
-        <option value="7">Deportes</option>
-        <option value="8">Estrategia</option>
-        <option value="9">Lucha</option>
-        <option value="10">Juego de laberintos</option><option value="0">Argentina</option>
-        <option value="11">Juego de mesa</option>
-        <option value="12">Misterio</option>
-        <option value="13">Habilidad</option>
-        <option value="14">Guerra</option>
-        <option value="15">Trivia</option>
-        <option value="16">Simulación</option>
-        <option value="17">Mundo libre</option>
+        <option value="0">Elija una categoría</option>
+        <option value="1">Acción</option>
+        <option value="2">Arcade</option>
+        <option value="3">Aviones</option>
+        <option value="4">Aventura</option>
+        <option value="5">Carreras</option>
+        <option value="6">Cocina</option>
+        <option value="7">Construcción</option>
+        <option value="8">Deportes</option>
+        <option value="9">Estrategia</option>
+        <option value="10">Lucha</option>
+        <option value="11">Juego de laberintos</option><option value="0">Argentina</option>
+        <option value="12">Juego de mesa</option>
+        <option value="13">Misterio</option>
+        <option value="14">Habilidad</option>
+        <option value="15">Guerra</option>
+        <option value="16">Trivia</option>
+        <option value="17">Simulación</option>
+        <option value="18">Mundo libre</option>
         
     </select>
 
@@ -67,14 +74,36 @@
     </select>
 
     <div class = "drag-area">
-        <h2>Arrastra y suelta una imagen y un .zip</h2>
+        <h2>Arrastra y suelta el logo</h2>
         <span>0</span>
         <button>Selecciona tus archivos</button>
-        <input type="file" name="" id="input-file" hidden multiple />
+        <input type="file" name="foto" id="input-file" hidden multiple />
     </div>
     
     <div id="preview"></div>
     <script src="publishGame.js"></script>
+
+    <div class = "drog-area">
+        <h2>Arrastra y suelta el .zip</h2>
+        <span>0</span>
+        <button>Selecciona tus archivos</button>
+        <input type="file" name="foto" id="input-file" hidden multiple />
+    </div>
+    
+    <div id="preview"></div>
+    <script src="publishGame2.js"></script>
+
+    <div class = "dreg-area">
+        <h2>Arrastra y suelta el banner</h2>
+        <span>0</span>
+        <button>Selecciona tus archivos</button>
+        <input type="file" name="foto" id="input-file" hidden multiple />
+    </div>
+    
+    <div id="preview"></div>
+    <script src="publishGame3.js"></script>
+
+    </form>
 
     <footer>
           <div class="contenedor">

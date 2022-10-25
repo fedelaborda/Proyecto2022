@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
 
-    const dropArea = document.querySelector(".drog-area");
+    const dropArea = document.querySelector(".drag-area");
     const dragText = dropArea.querySelector("h2");
     const button = dropArea.querySelector("button");
     const input = dropArea.querySelector("#input-file");
@@ -52,8 +52,8 @@ document.addEventListener("DOMContentLoaded", () => {
   
     function processFile(file) {
       const docType = file.type;
-      const validExtensions = ['application/x-zip-compressed', ''];
-    
+      const validExtensions = ['image/jpeg', 'image/jpg', 'image/png', 'image/gif'];
+      
       if (validExtensions.includes(docType)) {
         // archivo válido
         const fileReader = new FileReader();
@@ -63,7 +63,7 @@ document.addEventListener("DOMContentLoaded", () => {
           const fileUrl = fileReader.result;
           const image = `
               <div id= "${id}" class = "file-container">
-                <img src = "${fileUrl}" alt="${file.name}" width="50">
+                <img src = "${fileUrl}" alt="${file.name}" width="70">
                 <div class="status">
                   <span>${file.name}</span>
                   <span class="status-text">
@@ -83,6 +83,7 @@ document.addEventListener("DOMContentLoaded", () => {
       } else {
         // no es un archivo válido
         alert("No es un archivo válido");
+        console.log(file);
       }
   
     }
@@ -112,5 +113,3 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     }
   });
-  
- 

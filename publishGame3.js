@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
 
-    const dropArea = document.querySelector(".drog-area");
+    const dropArea = document.querySelector(".dreg-area");
     const dragText = dropArea.querySelector("h2");
     const button = dropArea.querySelector("button");
     const input = dropArea.querySelector("#input-file");
@@ -52,7 +52,7 @@ document.addEventListener("DOMContentLoaded", () => {
   
     function processFile(file) {
       const docType = file.type;
-      const validExtensions = ['application/x-zip-compressed', ''];
+      const validExtensions = ['image/jpeg', 'image/jpg', 'image/png', 'image/gif'];
     
       if (validExtensions.includes(docType)) {
         // archivo válido

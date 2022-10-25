@@ -81,15 +81,38 @@
                 </select>
             
                 <div class="buscar">
-                    <input type="text" placeholder="Buscar juegos" required>
+                    <input type="text" placeholder="Buscar juegos" unrequired>
                 </div> 
 
-                <div class="btnBuscar">
+                <!--<div class="btnBuscar">
+                    <a class = "busqueda" href= "juegoBuscado.php"></a>
                     <input type="submit" value="Buscar">
-                </div> 
+                </div> -->
+
+                <button class="btnBuscar">
+                    <a href= "juegoBuscado.php">Buscar</a> 
+                </button>
 
             </div>
         </main>
+
+        <div class="juegos">
+            <div class="juego">
+               <label class="j1">Juego 1 ejemplo</label>
+            </div>
+    
+            <div class="juego">
+               <label class="j2">Juego 2 ejemplo</label>
+            </div>
+    
+            <div class="juego">
+               <label class="j3">Juego 3 ejemplo</label>
+            </div>
+
+            <div class="juego">
+                <label class="j3">Juego 4 ejemplo</label>
+            </div>
+        </div>
 
         <footer>          
           <div class="contenedor">

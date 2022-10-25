@@ -57,6 +57,7 @@ body{
 }
 .header_btn a{
     color:white;
+    text-decoration: none;
 }
 .header_btn a:hover{
     color:rgb(0, 0, 0);
@@ -223,11 +224,22 @@ input[type="submit"]:hover{
     line-height: 0px;
 }
 .btnBuscar{
-    width: 30px;  
+    background: rgb(60, 60, 60);
+    width: 100px;  
     left: 972px;
     height: 30px;
     top: 313px;
+    border-radius: 30px;
 }
+.btnBuscar a{
+    color: rgb(200, 200, 200);
+    text-decoration: none;
+}
+.btnBuscar a:hover{
+    color: #fff;
+    transition: .3s;
+}
+
 .categoria{
     border: 1px solid silver;
     border-radius: 10px;
@@ -250,25 +262,52 @@ input[type="submit"]:hover{
     margin: auto;
     left: 20px;
     
-    background-image: url(img/fall.jfif);
+    background-image: url(img/banneruno.png);
     background-size: 100% 100%;
 
     animation: banner 10s infinite;
 }
 
 @keyframes banner{
-    0%, 30% {
-        background-image: url(img/fall.jfif);
+    0%, 35% {
+        background-image: url(img/banneruno.png);
     }
 
-    35%, 65% {
-        background-image: url(img/fort.jfif);
+    38%, 70% {
+        background-image: url(img/bannerdos.png);
     }
     
-    70%, 95% {
+    73%, 98% {
         background-image: url(img/mine.jfif);
     }
 }
+
+.juegos{
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: center;
+ }
+ .juego{
+     width: 250px;
+     position: static;
+     margin-top: 15px;
+     border: 1.5px solid black;
+     background-color: #ffc0cb;
+     margin-left: 15px;
+     height: 350px;
+ }
+ .juego label{
+    color: white;
+    position: static;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-top: 5px;
+ }
+ .juego:hover{
+    width: 270px;
+    height: 380px;
+    transition:.3s;
+ }
 
 footer{
     position: relative;

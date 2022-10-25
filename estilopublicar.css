@@ -57,6 +57,7 @@ body{
 }
 .header_btn a{
     color:white;
+    text-decoration: none;
 }
 .header_btn a:hover{
     color:rgb(0, 0, 0);
@@ -73,6 +74,7 @@ nav ul li{
 }
 nav ul li a {
     color: blue;
+    text-decoration: none;
 }
 nav ul li a:hover{
     color: white;
@@ -109,8 +111,73 @@ nav ul li a:hover{
       font-size: 25px;
       color: #000;
   }
+  .file-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border: solid 1px #ddd;
+}
+
+#preview {
+    margin-top: 10px;
+}
+
+.status-text {
+    padding: 0 10px;
+}
+
+.success{
+    color: #52ad5a;
+}
+
+.failure{
+    color: #ff0000;
+}
 
   .drag-area button {
+      padding: 10px 25px;
+      font-size: 20px;
+      border: 0;
+      outline: none;
+      background-color: #5256ad;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+      margin: 20px;
+  }
+  .drog-area {
+    border: 5px dashed #ddd;
+    width: 350px;
+    height: 400px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .drog-area.active{
+      background-color: #b8d4fe;
+      color: black;
+      border: 2px dashed #618ac9;
+  }
+
+  .drog-area h2 {
+    font-size: 30px;
+    font-weight: 500;
+    color: #000;
+    text-align: center;
+  }
+
+  .drog-area span {
+      font-size: 25px;
+      color: #000;
+  }
+
+  .drog-area button {
       padding: 10px 25px;
       font-size: 20px;
       border: 0;
@@ -145,6 +212,74 @@ nav ul li a:hover{
   .failure{
       color: #ff0000;
   }
+
+  .dreg-area {
+    border: 5px dashed #ddd;
+    width: 350px;
+    height: 400px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .dreg-area.active{
+      background-color: #b8d4fe;
+      color: black;
+      border: 2px dashed #618ac9;
+  }
+
+  .dreg-area h2 {
+    font-size: 30px;
+    font-weight: 500;
+    color: #000;
+    text-align: center;
+  }
+
+  .dreg-area span {
+      font-size: 25px;
+      color: #000;
+  }
+
+  .dreg-area button {
+      padding: 10px 25px;
+      font-size: 20px;
+      border: 0;
+      outline: none;
+      background-color: #5256ad;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+      margin: 20px;
+  }
+
+  .file-container {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 10px;
+      border: solid 1px #ddd;
+  }
+
+  #preview {
+      margin-top: 10px;
+  }
+
+  .status-text {
+      padding: 0 10px;
+  }
+  
+  .success{
+      color: #52ad5a;
+  }
+
+  .failure{
+      color: #ff0000;
+  }
+
 
   footer{
     position: relative;

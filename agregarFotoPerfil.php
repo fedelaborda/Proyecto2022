@@ -59,6 +59,10 @@
         <div id="preview"></div>
         <script src="perfilFoto.js"></script>
 
+        <button class="btnAceptar">
+            <a href= "perfil.php">Aceptar</a> 
+        </button>
+
         <footer>
             <div class="contenedor">
                 <div class="contactos">

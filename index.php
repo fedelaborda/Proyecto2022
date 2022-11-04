@@ -47,7 +47,7 @@
                     <!--<span class ="menu_text"> Ayuda </span>-->
                 </a>
                 <a class="menu_item" href= "publicarJuego.php">
-                    <img class="menu_icon" src="img/juegos.png" width="80px">
+                    <img class="menu_icon" src="img/publish.png" width="90px">
                     <!--<span class ="menu_text"> Publicar Juego </span>-->
                 </a>
             </div>

@@ -35,15 +35,16 @@
     </nav>
 
     <!--<form method = POST action="./registrojuegos.php">-->
-    <div class="contraseña">
+    <div class="tarjeta">
+        <label namespace = "tuki">
         <input type = "text" placeholder = "Nombre del Juego/App" nome="NomJuego"> <br>
     </div>    
        
-    <div class="contraseña">
+    <div class="desc">
         <input type = "text" placeholder = "Descripción" name="DescJuego"> <br>
     </div>
 
-    <select name="Categoría">
+    <select name="Categoria">
         
         <option value="0">Elija una categoría</option>
         <option value="1">Acción</option>
@@ -73,6 +74,8 @@
 
     </select>
 
+    <div class="contenedordetodo">
+
     <div class = "drag-area">
         <h2>Arrastra y suelta el logo</h2>
         <span>0</span>
@@ -83,7 +86,7 @@
     <div id="preview"></div>
     <script src="publishGame.js"></script>
 
-    <div class = "drog-area">
+    <div class = "drag-area">
         <h2>Arrastra y suelta el .zip</h2>
         <span>0</span>
         <button>Selecciona tus archivos</button>
@@ -93,7 +96,7 @@
     <div id="preview"></div>
     <script src="publishGame2.js"></script>
 
-    <div class = "dreg-area">
+    <div class = "drag-area">
         <h2>Arrastra y suelta el banner</h2>
         <span>0</span>
         <button>Selecciona tus archivos</button>
@@ -104,6 +107,7 @@
     <script src="publishGame3.js"></script>
 
     </form>
+    </div>
 
     <footer>
           <div class="contenedor">

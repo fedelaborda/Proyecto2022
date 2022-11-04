@@ -31,15 +31,15 @@
         <nav class="menu">
             <div class="menu_wrapper">
                 <a class="menu_item on" href= "index.php">
-                    <img class="menu_icon" src="img/inicio.png" width="80px">
+                    <img class="menu_icon" src="img/Inicio.png" width="80px">
                     <!--<span class ="menu_text"> Inicio </span>-->
                 </a>
                 <a class="menu_item" href= "biblioteca.php">
-                    <img class="menu_icon" src="img/biblio.png" width="80px">
+                    <img class="menu_icon" src="img/biblioteca.png" width="80px">
                     <!--<span class ="menu_text"> Biblioteca </span>-->
                 </a>
                 <a class="menu_item" href= "perfil.php">
-                    <img class="menu_icon" src="img/logoperfil.png" width="80px">
+                    <img class="menu_icon" src="img/perfil.png" width="80px">
                     <!--<span class ="menu_text"> Perfil </span>-->
                 </a>
                 <a class="menu_item" href= "ayuda.php">
